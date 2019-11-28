@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+#linear-gradient{
+    background-color: lightgreen;  background-image: linear-gradient(to bottom, #70e870 , #69c69f);
+    height: 300px;
+}
+.card{
+    box-shadow: 0px 1px 5px lightgray;
+   position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+}
+img{
+    border-radius: 50px;
+}
+.login{
+    margin-top: -190px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 400px;
+    width: 380px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #6c6c6c;
+    font-family: sans-serif;
+}
+.alert-danger{
+    font-size: 12px;
+    color: red;
+    margin: 0;
+}
+.login>header{
+    font-size: 11px;
+}
+.heading{
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+form>input[type=email], input[type=password]{
+    width: 60%;
+    padding: 10px 12px;
+    margin: 10px 0px ;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.btnLogin
+{
+    color: #5e5e5e;
+    padding: 10px 20px;
+    margin: 0px 0px 0px 80px;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: lightgray;
+    clear: right;
+}
+.fa{
+    color: gray;
+       border-radius: 40px;
+}
+.floater{
+    display: inline;
+    font-size: 10px;
+}

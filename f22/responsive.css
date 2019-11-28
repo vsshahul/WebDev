@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+  .flexInfoContainer{
+    display: none;
+  }
+  .socialIcons > a > img{
+    padding: 15px;
+  }
+  header{
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flexInboxContainer{
+   display: none;
+  }
+  .aboutContact > img{
+    width: 120px;
+  }
+  .chatModules>a>img{
+    padding: 8px;
+    height: 10px;
+    width: 10px;
+    
+  }
+  .chatHeader>div>h3{
+    font-size: 1.3vw;
+    
+  }
+  .chattingUser>p{
+    font-size: 1.2vw;
+  }
+  .chatMessage{
+    font-size: 1.3vw;
+  }
+  .chatFooter>a>img{
+    padding: 5px;
+     padding: 5px;
+    height: 10px;
+    width: 10px;
+  }
+  .chatFooter>input{
+    min-width: 130px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .leftImgAvatar>img{
+   margin-left: -10px;
+  }
+  .rightImgAvatar>img{
+    margin-right: -10px;
+  }
+  input[type="text"]{
+    width: 30%;
+  }
+  .socialIcons > a > img{
+   
+  }
+  .flexIconsContainer > div > a > img{
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .chatModules>a>img{
+    padding: 5px;
+  }
+  .chatMessage{
+    font-size: 1vw;
+  }
+  .chatFooter>a>img{
+    padding: 5px;
+  }
+  .chatFooter>input{
+    min-width: 50px;
+    padding: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+body{
+
+}
+.flexIconsContainer{
+  
+}
+.flexInboxContainer{
+    
+  width: 150px;
+
+}
+.flexContactsContainer{
+  
+  width: 50px;
+  
+  flex-grow: 4;
+}
+.flexChatContainer{
+    
+  width: 100px;
+ 
+  flex-grow: 5;
+}
+.flexInfoContainer{
+  width: 150px;
+  flex-grow: 2;
+}
+  .chatFooter > input{
+    min-width: 210px;
+  }
+}
