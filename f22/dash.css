@@ -1,0 +1,406 @@
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  margin:0;
+}
+.flexIconsContainer{
+    background-color:#1e1e1e;
+}
+.flexInboxContainer{
+     background-color: #242323;
+  width: 150px;
+  height: 700px;
+}
+.flexContactsContainer{
+     background-color: #2d2d2dfc;
+  width: 50px;
+  height: 700px;
+  flex-grow: 4;
+}
+.flexChatContainer{
+     background-color: #f2f2f2;
+  width: 100px;
+  height: auto;
+  flex-grow: 5;
+}
+.flexInfoContainer{
+     background-color: #fff;
+  width: 150px;
+  height: 700px;
+  flex-grow: 2;
+}
+header>a>img{
+  height: 30px;
+    background-color: #9595955e;
+  padding: 2px;
+  border-radius: 5px;
+}
+.flexIconsContainer>div>a>img{
+  height: 30px;
+  }
+header{
+ border-bottom:  1px solid #d3d3d330;
+ padding: 20px;
+ height: 30px;
+}
+header:hover{
+  background-color: #1e1e1e;
+}
+.socialIcons{
+  display: flex;
+  flex-direction: column;
+ padding: 0px;
+}
+.socialIcons>a>img{
+  padding: 20px;
+}
+
+.socialIcons :hover{
+ background-color: #242323;
+}
+#inbox{
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-family: arial;
+  margin-left: -10px;
+}
+#adduser{
+  float: right;
+  background-color: #9595955e;
+  padding: 2px;
+  border-radius: 5px;
+}
+ul{
+  margin:20px 10px 0px -30px;
+}
+ul li a {
+  padding: 10px 20px 10px 10px;
+}
+ul li:hover , .active {
+ background-color: #2d2d2dfc;
+  border-radius: 5px;
+  color: white;
+}
+ul li:hover a{
+  color:white;
+}
+
+ul li{
+  list-style-type: none;
+  color: white;
+  font-size: 12px;
+}
+a{
+  color: grey;
+  text-decoration: none;
+  font-family: sans-serif
+}
+li{
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  position : relative;
+}
+.badgeNo{
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+
+/* search button */
+.search-container {
+ 
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 10px;
+  border: none;
+  min-width: 70%;
+}
+input[type=text]:focus{
+  background-color: lightgray;
+  color: black;
+}
+
+
+ .search-container button {
+   min-width: 10%;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 0px;
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+/* user messages */
+.contact{
+  box-sizing: border-box;
+  margin: 1px 0px;
+  display: flex;
+  color: white;
+}
+.contact:hover{
+  background-color: #242323;
+}
+.active{
+   background-color:#242323 ;
+  border-radius: 0; 
+  
+}
+.activedark{
+   background-color:#1e1e1e ;
+  border-radius: 0; 
+}
+.userImg{ 
+  height: 30px;
+  width: 30px;
+  flex-grow:1;
+  padding: 10px 8px;
+  margin: auto;
+  border-radius: 50px;
+}
+.messages{
+  width: 40%;
+  padding: 5px;
+  font-size: 10px;
+  flex-grow: 10;
+  font-family: arial,sans serif;
+  
+}
+.messages>h4{
+  margin: 1px;
+  font-weight: bolder;
+  font-size: 11px;
+  padding: 10px 0px 0px 0px;
+}
+.moreBtn{
+  flex-grow: 2;
+  font-size: 10px;
+  padding: 1px 10px; 
+  
+}
+.moreBtn>p{
+padding: 0;
+  margin: 0;
+  width: 20px;
+  color: #cec8c8a8;
+}
+.moreBtn>h2{
+  margin: 0;
+  padding: 0;
+}
+.chattingUser{
+  display: inline-block;
+  width: 50%;
+  font-family: verdana;
+}
+.chatHeader:hover{
+  background-color: #dddddd36;
+}
+.chattingUser>h3, .chattingUser>p{
+  display: inline-block;
+  padding: 0px 2px;
+  font-size: 12px;
+}
+.chattingUser:hover{
+  background-color: #b5b5b5;
+}
+.chatModules{
+  width: 40;
+  float: right;
+}
+.chatModules>a>img{
+  float: right;
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #80808057;
+  border-radius: 5px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.chatModules>a :hover {
+  background-color: #b5b5b5;
+}
+.chatFooter{
+  display: block;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #e3e3e3;
+}
+.flexChatContainer{
+  position: relative;
+}
+.chatFooter>a>img{
+  height: 25px;
+  padding: 7px;
+  margin: 5px;
+  margin-bottom: -10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: inline-block;
+  height: 20px;
+}
+.chatFooter>a>img:hover{
+  background-color: grey;
+}
+.chatFooter>input{
+  display: inline;
+  padding: 20px;
+  margin-right: 4px;
+  background-color: #ffffffa3;
+  min-width: 250px;
+  border-radius: 10px;
+}
+.box{
+ border: 1px solid #80808057;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+/* INFO Container */
+.infoEvent{
+  display: block;
+  padding: 10px;
+  
+}
+.infoEvent>img{
+  height: 20px;
+  padding: 6px;
+}
+.infoEvent>span{
+  font-size: 40px;
+  float: right;
+  margin-top: -20px;
+}
+.aboutContact{
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+  color: gray;
+  font-family: arial;
+  
+}
+.aboutContact>img{
+  margin: auto;
+  width: 200px; 
+  border-radius: 10px;
+}
+.aboutContact>p{
+  font-size: 10px;
+}
+.infoContact{
+  display: flex;
+  flex-direction: column;
+}
+.infoContact>li{
+  color: grey;
+  padding: 10px;
+  font-family: sans-serif;
+ 
+}
+.infoRight{
+  position: absolute;
+  right: 0;
+}
+.chats{
+  padding: 10px;
+  overflow: scroll;
+}
+.chat{
+  padding: 6px;
+  font-size: 12px;
+}
+.leftImgAvatar{
+  float: left;
+}
+.rightImgAvatar{
+  float: right;
+}
+.leftImgAvatar>p {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+}
+.rightImgAvatar>p {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+}
+.chatMessage{
+  font-family:  arial;
+ padding: 10px;
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  color: #242323;
+  border-radius: 6px;
+  
+}
+.greenChat{
+  color: #fafafa;
+  background-color: #4caf50;
+}
+.leftImgAvatar>img{
+  height: 30px;
+  border-radius: 20px;
+}
+.rightImgAvatar>img{
+  height: 30px;
+  border-radius: 20px;
+}
+.chatMessage>img{
+  width: 100%;
+  height: 140px;
+  box-shadow: 1px 2px 10px grey;
+}
+.chatMessage>button{
+  width: 100%;
+  background-color: #1f6650;
+  border:none;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px solid gray;
+}
+.chatMessage>button:hover{
+  opacity: .7;
+  color: white;
+}
+.chat{
+  position: relative;
+}
+.whitechat::before{
+  height: 0;
+  width: 0;
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 53px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid white;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+}
+.greenChat::after{
+ height: 0;
+  width: 0;
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 53px;
+  border-left: 5px solid #4caf50;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+}
