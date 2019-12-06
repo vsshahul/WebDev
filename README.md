@@ -1,1 +1,2 @@
-# Mini And Main Projects
+# Mini Project-
+Soul Store-Ecommerce Website
